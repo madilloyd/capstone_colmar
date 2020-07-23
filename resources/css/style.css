@@ -1,9 +1,86 @@
+/*Elements*/
 * {
     box-sizing: border-box;
     scroll-padding-top: 4rem;
 }
 
-html {
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
+@font-face {
+    font-family: 'bahij';
+    src: url('fonts/bahij_sultannahia-regular-webfont.woff2') format('woff2'),
+         url('fonts/bahij_sultannahia-regular-webfont.woff') format('woff'),
+         url('fonts/bahij_sultannahia-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+html {
+    font-size: 16px;
+    font-family: 'bahij', 'Courier New', Courier, monospace;
+}
+
+body {
+    line-height: 1.4;
+}
+
+main {
+    postition: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: inline;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.17rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    /*position: fixed;*/
+    z-index: 10;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+/*Header*/
+
+#logo {
+
+}
+
+
+/*Media Queries*/
+
+@media

@@ -14,12 +14,12 @@
     <body>
 
        <!--Header Section-->
-       <header>
-           <div class="desktop" id="logo">
+       <header class="desktop">
+           <div id="logo">
                <a href="#"><img src="resources/images/ic-logo.svg"></a>
                <a href="#"><span><strong>COLMAR</strong>ACADEMY</span></a>
            </div>
-           <nav class="desktop">
+           <nav>
                <ul>
                    <li><a href="#">On Campus</a></li>
                    <li><a href="#">Sign In</a></li>
@@ -27,8 +27,9 @@
                    <li><a href="#">For Companies</a></li>
                </ul>
            </nav>
-           
-           <nav class="mobile">
+        </header>
+        <header class="mobile">
+           <nav>
                 <ul id="icons">
                     <li><a href="#"><img src="resources/images/ic-logo.svg"></a></li>
                     <li><a href="#"><img src="resources/images/ic-on-campus.svg"></a></li>
@@ -129,7 +130,9 @@
             <article class="thesis">
                 <h2>Thesis exhibit</h2>
                 <section class="video">
-                    <video><source src="resources/videos/thesis.mp4"></video>
+                    <video><source src="resources/videos/thesis.mp4" type="video.mp4" 
+                        autoplay loop muted>
+                    </video>
                     <h3>Reimagine urban</h3>
                     <p>"Sed aliquam augue nec ornare mollis. Ut et leo nibh. Etiam feugiat 
                         ligula eu augue porttitor, vel vulputate elit finibus. Sed congue 
