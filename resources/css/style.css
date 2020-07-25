@@ -4,18 +4,9 @@
     scroll-padding-top: 4rem;
 }
 
-@font-face {
-    font-family: 'bahij';
-    src: url('fonts/bahij_sultannahia-regular-webfont.woff2') format('woff2'),
-         url('fonts/bahij_sultannahia-regular-webfont.woff') format('woff'),
-         url('fonts/bahij_sultannahia-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html {
     font-size: 16px;
-    font-family: 'bahij', 'Courier New', Courier, monospace;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -23,7 +14,7 @@ body {
 }
 
 main {
-    postition: relative;
+    position: relative;
 }
 
 a {
@@ -36,17 +27,17 @@ ul {
 
 h1 {
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 h2 {
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 1.17rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h4 {
@@ -54,9 +45,14 @@ h4 {
     font-weight: 500;
 }
 
+h5 {
+    font-size: 0.83rem;
+    font-weight: 400;
+}
+
 p {
-    font-size: 0.75rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 header {
