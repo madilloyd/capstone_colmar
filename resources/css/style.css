@@ -6,12 +6,12 @@
 
 html {
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     color: #4a4a4a;
 }
 
 body {
-    line-height: 1.4;
+    line-height: 2;
     margin: 0 auto;
     /*display: block;*/
 }
@@ -163,7 +163,23 @@ video {
 
  #banner .text a {
      color: white;
-     font-family: 'Rubik', sans-serif;
+     font-family: 'Noto Sans JP', sans-serif;
      font-size: 1.25rem;
      line-height: 1.2;
  }
+
+ /*Article Section*/
+
+ #info {
+     flex-flow: row nowrap;
+ }
+
+ #info .figure {
+     justify-content: flex-start;
+     height: auto;
+     width: 60%;
+     padding: 2rem;
+     flex-shrink: 0;
+ }
+
+ #info 
