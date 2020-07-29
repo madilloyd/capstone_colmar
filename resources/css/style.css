@@ -31,8 +31,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 h3 {
@@ -76,6 +76,54 @@ video {
     width: 100%;
 }
 
+/*Classes*/
+
+.left, .right {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.left {
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.left .text h1 {
+    margin-bottom: 0.5rem;
+}
+
+.right {
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.right article {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1rem;
+}
+
+.right article figure {
+    width: 35%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.right article .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.right article .text h3 {
+    margin-bottom: 0.5rem;
+}
+
+.right article .text p {
+    font-size: 1.125rem;
+}
+
 /*Header*/
 .desktop {
     display: flex;
@@ -83,22 +131,28 @@ video {
     justify-content: space-between;
     align-items: center;
  }
-.desktop #logo{
+
+.desktop #logo {
     display: flex; 
     margin: 0 0.5rem;
     font-size: 1.25rem;
+    align-items: center;
+    float: left;
 }
 
-.desktop #logo img{
+.desktop #logo figure {
     width: 32px;
     height: 32px;
     float: left;
+    margin: 0;
 }
 
 .desktop #logo span {
     position: relative;
     color: #4a4a4a;
+    font-size: 1.5rem;
 }
+
 .desktop span strong {
     font-weight: 900;
 }
@@ -137,7 +191,8 @@ video {
  #banner figure {
     width: 60%;
     height: auto;
-    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     flex-shrink: 0;
  }
 
@@ -145,7 +200,8 @@ video {
      display: flex;
      flex-flow: column wrap;
      justify-content: center;
-     padding: 2rem 1rem;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
      margin-right: 4rem;
  }
 
@@ -182,8 +238,29 @@ video {
      justify-content: flex-start;
      height: auto;
      width: 60%;
-     padding: 2rem;
      flex-shrink: 0;
+     padding: 2rem  1.5rem;
  }
 
- #info 
+ #info .left .textbox {
+     display: flex;
+     flex-flow: column nowrap;
+     padding-left: 2.3rem;
+ }
+ 
+ #info .otherinfo .infobox {
+     display: flex;
+     flex-flow: column wrap;
+     width: 40%;
+ }
+
+#info .otherinfo .infobox figure {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 35%;
+}
+
+#info .otherinfo .infobox .textbox {
+    width: 65%;
+}
